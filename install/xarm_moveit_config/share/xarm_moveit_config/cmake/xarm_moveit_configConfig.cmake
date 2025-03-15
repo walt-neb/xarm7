@@ -1,0 +1,1 @@
+/home/walt/ws_moveit/build/xarm_moveit_config/ament_cmake_core/xarm_moveit_configConfig.cmake

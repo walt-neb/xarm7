@@ -1,0 +1,1 @@
+/home/walt/ws_moveit/src/xarm_ros2/demo/mbot_demo/launch/mbot_moveit_fake.launch.py

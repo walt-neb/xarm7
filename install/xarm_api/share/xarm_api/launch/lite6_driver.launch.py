@@ -1,0 +1,1 @@
+/home/walt/ws_moveit/src/xarm_ros2/xarm_api/launch/lite6_driver.launch.py

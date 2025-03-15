@@ -1,0 +1,1 @@
+/home/walt/ws_moveit/src/xarm_ros2/xarm_gazebo/launch/uf850_beside_table_gazebo.launch.py

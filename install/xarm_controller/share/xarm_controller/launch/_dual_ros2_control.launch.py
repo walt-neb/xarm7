@@ -1,0 +1,1 @@
+/home/walt/ws_moveit/src/xarm_ros2/xarm_controller/launch/_dual_ros2_control.launch.py

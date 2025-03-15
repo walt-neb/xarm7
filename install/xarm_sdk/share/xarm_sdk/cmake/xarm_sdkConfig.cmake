@@ -1,0 +1,1 @@
+/home/walt/ws_moveit/build/xarm_sdk/ament_cmake_core/xarm_sdkConfig.cmake

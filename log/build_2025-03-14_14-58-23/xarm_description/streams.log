@@ -1,0 +1,273 @@
+[0.013s] Invoking command in '/home/walt/ws_moveit/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/walt/dev_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/walt/ws_moveit/src/xarm_ros2/xarm_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/walt/ws_moveit/install/xarm_description
+[0.113s] -- The C compiler identification is GNU 13.3.0
+[0.113s] -- The CXX compiler identification is GNU 13.3.0
+[0.113s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.160s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.160s] -- Detecting C compile features
+[0.160s] -- Detecting C compile features - done
+[0.166s] -- Detecting CXX compiler ABI info
+[0.232s] -- Detecting CXX compiler ABI info - done
+[0.237s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.237s] -- Detecting CXX compile features
+[0.237s] -- Detecting CXX compile features - done
+[0.239s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.330s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.367s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.392s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.456s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.465s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.465s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.466s] -- Added test 'lint_cmake' to check CMake code style
+[0.467s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.471s] -- Added test 'xmllint' to check XML markup files
+[0.472s] -- Configuring done (0.5s)
+[0.474s] -- Generating done (0.0s)
+[0.474s] -- Build files have been written to: /home/walt/ws_moveit/build/xarm_description
+[0.477s] Invoked command in '/home/walt/ws_moveit/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/walt/dev_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/walt/ws_moveit/src/xarm_ros2/xarm_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/walt/ws_moveit/install/xarm_description
+[0.478s] Invoking command in '/home/walt/ws_moveit/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/walt/dev_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/walt/ws_moveit/build/xarm_description -- -j32 -l32
+[0.502s] Invoked command in '/home/walt/ws_moveit/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/walt/dev_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/walt/ws_moveit/build/xarm_description -- -j32 -l32
+[0.509s] Invoking command in '/home/walt/ws_moveit/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/walt/dev_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/walt/ws_moveit/build/xarm_description
+[0.515s] -- Install configuration: ""
+[0.515s] -- Execute custom install script
+[0.516s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//rviz/display.rviz
+[0.526s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/_private_macro.xacro
+[0.534s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/camera/camera.gazebo.xacro
+[0.540s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/camera/realsense.gazebo.xacro
+[0.549s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/camera/realsense_d435i.urdf.xacro
+[0.556s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/common/common.gazebo.xacro
+[0.564s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/common/common.link.xacro
+[0.572s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/common/common.material.xacro
+[0.581s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/dual_xarm_device.urdf.xacro
+[0.587s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.gazebo.xacro
+[0.595s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.ros2_control.xacro
+[0.606s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.transmission.xacro
+[0.612s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.urdf.xacro
+[0.619s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper_macro.xacro
+[0.627s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/gripper/gripper.urdf.xacro
+[0.635s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/gripper/gripper_macro.xacro
+[0.645s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/gripper/lite_gripper.urdf.xacro
+[0.655s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.gazebo.xacro
+[0.661s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.ros2_control.xacro
+[0.670s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.transmission.xacro
+[0.677s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.urdf.xacro
+[0.685s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper_macro.xacro
+[0.695s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/lite6/lite6.gazebo.xacro
+[0.704s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/lite6/lite6.ros2_control.xacro
+[0.722s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/lite6/lite6.transmission.xacro
+[0.740s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/lite6/lite6.urdf.xacro
+[0.755s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/lite6/lite6_robot_macro.xacro
+[0.768s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/other/other_geometry.urdf.xacro
+[0.776s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/uf850/uf850.gazebo.xacro
+[0.783s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/uf850/uf850.ros2_control.xacro
+[0.792s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/uf850/uf850.transmission.xacro
+[0.799s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/uf850/uf850.urdf.xacro
+[0.806s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/uf850/uf850_robot_macro.xacro
+[0.814s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/lite_vacuum_gripper.urdf.xacro
+[0.822s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/vacuum_gripper.urdf.xacro
+[0.830s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/vacuum_gripper_macro.xacro
+[0.838s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/xarm_vacuum_gripper.urdf.xacro
+[0.845s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.gazebo.xacro
+[0.851s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.ros2_control.xacro
+[0.858s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.transmission.xacro
+[0.864s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.urdf.xacro
+[0.872s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5_robot_macro.xacro
+[0.878s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.gazebo.xacro
+[0.887s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.ros2_control.xacro
+[0.893s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.transmission.xacro
+[0.898s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.urdf.xacro
+[0.907s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6_robot_macro.xacro
+[0.916s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.gazebo.xacro
+[0.924s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.ros2_control.xacro
+[0.933s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.transmission.xacro
+[0.940s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.urdf.xacro
+[0.948s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7_robot_macro.xacro
+[0.956s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.gazebo.xacro
+[0.964s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.ros2_control.xacro
+[0.970s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.transmission.xacro
+[0.975s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.urdf.xacro
+[0.982s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror_robot_macro.xacro
+[0.988s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm_device.urdf.xacro
+[0.995s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//urdf/xarm_device_macro.xacro
+[1.000s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/kinematics/default/lite6_default_kinematics.yaml
+[1.006s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/kinematics/default/uf850_default_kinematics.yaml
+[1.014s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/kinematics/default/xarm5_default_kinematics.yaml
+[1.021s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/kinematics/default/xarm6_default_kinematics.yaml
+[1.029s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/kinematics/default/xarm7_default_kinematics.yaml
+[1.036s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/kinematics/default/xarm7_mirror_default_kinematics.yaml
+[1.040s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/kinematics/gen_kinematics_params.py
+[1.045s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/gen_link_inertial_params.py
+[1.050s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_HT_BR.yaml
+[1.054s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_HT_BR2.yaml
+[1.061s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_HT_LD.yaml
+[1.066s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_UJ_BR_2403.yaml
+[1.070s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type11_HT_LD.yaml
+[1.075s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type12_HT_LDBR2.yaml
+[1.081s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT2_LD.yaml
+[1.086s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_BR.yaml
+[1.094s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_BR2.yaml
+[1.099s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_LD.yaml
+[1.108s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_UJ_BR_2403.yaml
+[1.113s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type8_HT2_BR2.yaml
+[1.119s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type9_HT_BR2.yaml
+[1.127s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type13_HT_BR2.yaml
+[1.133s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type3_YT_SP.yaml
+[1.139s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_HT_BR.yaml
+[1.146s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_HT_BR2.yaml
+[1.151s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_HT_LD.yaml
+[1.158s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_UJ_BR_2403.yaml
+[1.165s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/camera/realsense/collision/d435_with_cam_stand.stl
+[1.183s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/camera/realsense/visual/d435_with_cam_stand.stl
+[1.190s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/end_tool/collision/end_tool.stl
+[1.197s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/end_tool/collision/end_tool_1300.stl
+[1.203s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/end_tool/visual/end_tool_1300.stl
+[1.208s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/gripper/bio/left_finger.stl
+[1.212s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/gripper/bio/link_base.stl
+[1.216s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/gripper/bio/right_finger.stl
+[1.222s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/gripper/lite/collision/gripper_lite.stl
+[1.227s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual/gripper_lite.stl
+[1.231s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/gripper/xarm/base_link.stl
+[1.235s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_finger.stl
+[1.242s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_inner_knuckle.stl
+[1.247s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_outer_knuckle.stl
+[1.253s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_finger.stl
+[1.259s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_inner_knuckle.stl
+[1.264s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_outer_knuckle.stl
+[1.270s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/lite6/collision/link1.stl
+[1.277s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/lite6/collision/link2.stl
+[1.281s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/lite6/collision/link3.stl
+[1.288s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/lite6/collision/link4.stl
+[1.293s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/lite6/collision/link5.stl
+[1.299s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/lite6/collision/link6.stl
+[1.303s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/lite6/collision/link_base.stl
+[1.309s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/lite6/visual/link1.stl
+[1.314s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/lite6/visual/link2.stl
+[1.319s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/lite6/visual/link3.stl
+[1.325s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/lite6/visual/link4.stl
+[1.332s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/lite6/visual/link5.stl
+[1.338s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/lite6/visual/link6.stl
+[1.344s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/lite6/visual/link_base.stl
+[1.350s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/uf850/collision/link1.stl
+[1.356s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/uf850/collision/link2.stl
+[1.362s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/uf850/collision/link3.stl
+[1.369s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/uf850/collision/link4.stl
+[1.375s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/uf850/collision/link5.stl
+[1.380s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/uf850/collision/link6.stl
+[1.385s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/uf850/collision/link_base.stl
+[1.389s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/uf850/visual/link1.stl
+[1.395s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/uf850/visual/link2.stl
+[1.401s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/uf850/visual/link3.stl
+[1.407s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/uf850/visual/link4.stl
+[1.412s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/uf850/visual/link5.stl
+[1.419s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/uf850/visual/link6.stl
+[1.424s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/uf850/visual/link_base.stl
+[1.429s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/collision/vacuum_gripper_lite.stl
+[1.436s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/visual/vacuum_gripper_lite.stl
+[1.442s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/collision/vacuum_gripper.stl
+[1.447s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/visual/vacuum_gripper.stl
+[1.453s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link1.stl
+[1.459s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link2.stl
+[1.465s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link3.stl
+[1.472s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link4.stl
+[1.478s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link5.stl
+[1.485s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link_base.stl
+[1.491s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link1.obj
+[1.498s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link2.obj
+[1.504s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link3.obj
+[1.508s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link4.obj
+[1.513s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link5.obj
+[1.518s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link_base.obj
+[1.524s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link1.stl
+[1.530s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link2.stl
+[1.536s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link3.stl
+[1.540s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link4.stl
+[1.546s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link5.stl
+[1.550s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link_base.stl
+[1.556s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link1.stl
+[1.560s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link2.stl
+[1.566s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link3.stl
+[1.572s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link4.stl
+[1.578s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link5.stl
+[1.582s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link6.stl
+[1.586s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link_base.stl
+[1.591s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link1.obj
+[1.597s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link2.obj
+[1.602s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link3.obj
+[1.608s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link4.obj
+[1.614s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link5.obj
+[1.619s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link6.obj
+[1.624s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link_base.obj
+[1.628s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link1.stl
+[1.634s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link2.stl
+[1.640s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link3.stl
+[1.646s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link4.stl
+[1.652s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link5.stl
+[1.657s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link6.stl
+[1.663s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link_base.stl
+[1.668s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link1.stl
+[1.673s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link2.stl
+[1.677s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link3.stl
+[1.683s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link4.stl
+[1.688s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link5.stl
+[1.694s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link6.stl
+[1.698s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link7.stl
+[1.703s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link_base.stl
+[1.708s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link1.obj
+[1.712s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link2.obj
+[1.717s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link3.obj
+[1.723s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link4.obj
+[1.729s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link5.obj
+[1.734s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link6.obj
+[1.739s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link7.obj
+[1.746s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link_base.obj
+[1.751s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link1.stl
+[1.757s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link2.stl
+[1.762s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link3.stl
+[1.767s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link4.stl
+[1.773s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link5.stl
+[1.779s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link6.stl
+[1.784s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link7.stl
+[1.790s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link_base.stl
+[1.795s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link1.stl
+[1.800s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link2.stl
+[1.804s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link3.stl
+[1.810s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link4.stl
+[1.815s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link5.stl
+[1.821s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link6.stl
+[1.826s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link7.stl
+[1.832s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link_base.stl
+[1.838s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link1.stl
+[1.843s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link2.stl
+[1.849s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link3.stl
+[1.855s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link4.stl
+[1.860s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link5.stl
+[1.866s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link6.stl
+[1.870s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link7.stl
+[1.875s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link_base.stl
+[1.881s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//launch/_robot_description.launch.py
+[1.887s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//launch/_robot_joint_state.launch.py
+[1.892s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//launch/_robot_rviz_display.launch.py
+[1.897s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//launch/_rviz_display.launch.py
+[1.903s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//launch/lib/robot_description_lib.py
+[1.909s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//launch/lite6_rviz_display.launch.py
+[1.914s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//launch/uf850_rviz_display.launch.py
+[1.919s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//launch/xarm5_rviz_display.launch.py
+[1.925s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//launch/xarm6_rviz_display.launch.py
+[1.931s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//launch/xarm7_mirror_rviz_display.launch.py
+[1.937s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description//launch/xarm7_rviz_display.launch.py
+[1.942s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/ament_index/resource_index/package_run_dependencies/xarm_description
+[1.949s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/ament_index/resource_index/parent_prefix_path/xarm_description
+[1.954s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description/environment/ament_prefix_path.sh
+[1.959s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description/environment/ament_prefix_path.dsv
+[1.965s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description/environment/path.sh
+[1.971s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description/environment/path.dsv
+[1.975s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description/local_setup.bash
+[1.980s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description/local_setup.sh
+[1.986s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description/local_setup.zsh
+[1.990s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description/local_setup.dsv
+[1.996s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description/package.dsv
+[2.002s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/ament_index/resource_index/packages/xarm_description
+[2.008s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig.cmake
+[2.012s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig-version.cmake
+[2.018s] -- Symlinking: /home/walt/ws_moveit/install/xarm_description/share/xarm_description/package.xml
+[2.025s] Invoked command in '/home/walt/ws_moveit/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/walt/dev_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/walt/ws_moveit/build/xarm_description

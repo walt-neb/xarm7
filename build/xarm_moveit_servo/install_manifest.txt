@@ -1,0 +1,2 @@
+/home/walt/ws_moveit/install/xarm_moveit_servo/lib/libxarm_joystick_input.so
+/home/walt/ws_moveit/install/xarm_moveit_servo/lib/xarm_moveit_servo/xarm_keyboard_input

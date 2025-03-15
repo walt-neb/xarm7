@@ -1,0 +1,1 @@
+/home/walt/ws_moveit/build/xarm_msgs/rosidl_typesupport_introspection_c/xarm_msgs/srv/detail/gripper_move__rosidl_typesupport_introspection_c.h

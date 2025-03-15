@@ -1,0 +1,1 @@
+/home/walt/ws_moveit/src/xarm_ros2/xarm_planner/launch/_robot_planner.launch.py

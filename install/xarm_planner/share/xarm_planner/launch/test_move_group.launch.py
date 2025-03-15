@@ -1,0 +1,1 @@
+/home/walt/ws_moveit/src/xarm_ros2/xarm_planner/launch/test_move_group.launch.py

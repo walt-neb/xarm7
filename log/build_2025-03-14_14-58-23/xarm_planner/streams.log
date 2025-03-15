@@ -1,0 +1,151 @@
+[0.035s] Invoking command in '/home/walt/ws_moveit/build/xarm_planner': AMENT_PREFIX_PATH=/home/walt/ws_moveit/install/xarm_moveit_config:/home/walt/ws_moveit/install/xarm_gazebo:/home/walt/ws_moveit/install/xarm_controller:/home/walt/ws_moveit/install/xarm_api:/home/walt/ws_moveit/install/xarm_sdk:/home/walt/ws_moveit/install/xarm_msgs:/home/walt/ws_moveit/install/xarm_description:/home/walt/ws_moveit/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walt/ws_moveit/install/xarm_moveit_config:/home/walt/ws_moveit/install/xarm_gazebo:/home/walt/ws_moveit/install/xarm_controller:/home/walt/ws_moveit/install/xarm_api:/home/walt/ws_moveit/install/xarm_sdk:/home/walt/ws_moveit/install/xarm_msgs:/home/walt/ws_moveit/install/xarm_description:/home/walt/dev_ws/install/xarm_planner:/home/walt/dev_ws/install/xarm_moveit_servo:/home/walt/dev_ws/install/xarm_moveit_config:/home/walt/dev_ws/install/xarm_gazebo:/home/walt/dev_ws/install/xarm_controller:/home/walt/dev_ws/install/xarm_api:/home/walt/dev_ws/install/xarm_sdk:/home/walt/dev_ws/install/xarm_msgs:/home/walt/dev_ws/install/xarm_description:/home/walt/dev_ws/install/realsense_gazebo_plugin:/home/walt/dev_ws/install/mbot_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/walt/dev_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/walt/ws_moveit/install/xarm_controller/lib:/home/walt/ws_moveit/install/xarm_api/lib:/home/walt/ws_moveit/install/xarm_sdk/lib:/home/walt/ws_moveit/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walt/ws_moveit/install/xarm_msgs/lib/python3.12/site-packages:/home/walt/ws_moveit/build/uf_ros_lib:/home/walt/ws_moveit/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/walt/ws_moveit/src/xarm_ros2/xarm_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/walt/ws_moveit/install/xarm_planner
+[0.099s] -- The C compiler identification is GNU 13.3.0
+[0.155s] -- The CXX compiler identification is GNU 13.3.0
+[0.166s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.261s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.261s] -- Detecting C compile features
+[0.261s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.355s] -- Detecting CXX compiler ABI info - done
+[0.362s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.362s] -- Detecting CXX compile features
+[0.363s] -- Detecting CXX compile features - done
+[0.365s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.464s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.512s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.540s] -- Found moveit: 2.12.2 (/opt/ros/jazzy/share/moveit/cmake)
+[0.541s] -- Found moveit_ros_planning_interface: 2.12.2 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[0.614s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[0.644s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.653s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.663s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.674s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.847s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.887s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[0.918s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.920s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.981s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.992s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.015s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.067s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.089s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.126s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.126s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.224s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.253s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[1.269s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[1.291s] -- Found xarm_msgs: 0.0.0 (/home/walt/ws_moveit/install/xarm_msgs/share/xarm_msgs/cmake)
+[1.345s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.408s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.409s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.409s] -- Configured cppcheck include dirs: /home/walt/ws_moveit/src/xarm_ros2/xarm_planner/include
+[1.409s] -- Configured cppcheck exclude dirs and/or files: 
+[1.410s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.410s] -- Configured cpplint exclude dirs and/or files: 
+[1.411s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.411s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.411s] -- Added test 'lint_cmake' to check CMake code style
+[1.412s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.413s] -- Added test 'uncrustify' to check C / C++ code style
+[1.413s] -- Configured uncrustify additional arguments: 
+[1.413s] -- Added test 'xmllint' to check XML markup files
+[1.414s] -- Configuring done (1.4s)
+[1.473s] -- Generating done (0.0s)
+[1.499s] -- Build files have been written to: /home/walt/ws_moveit/build/xarm_planner
+[1.507s] Invoked command in '/home/walt/ws_moveit/build/xarm_planner' returned '0': AMENT_PREFIX_PATH=/home/walt/ws_moveit/install/xarm_moveit_config:/home/walt/ws_moveit/install/xarm_gazebo:/home/walt/ws_moveit/install/xarm_controller:/home/walt/ws_moveit/install/xarm_api:/home/walt/ws_moveit/install/xarm_sdk:/home/walt/ws_moveit/install/xarm_msgs:/home/walt/ws_moveit/install/xarm_description:/home/walt/ws_moveit/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walt/ws_moveit/install/xarm_moveit_config:/home/walt/ws_moveit/install/xarm_gazebo:/home/walt/ws_moveit/install/xarm_controller:/home/walt/ws_moveit/install/xarm_api:/home/walt/ws_moveit/install/xarm_sdk:/home/walt/ws_moveit/install/xarm_msgs:/home/walt/ws_moveit/install/xarm_description:/home/walt/dev_ws/install/xarm_planner:/home/walt/dev_ws/install/xarm_moveit_servo:/home/walt/dev_ws/install/xarm_moveit_config:/home/walt/dev_ws/install/xarm_gazebo:/home/walt/dev_ws/install/xarm_controller:/home/walt/dev_ws/install/xarm_api:/home/walt/dev_ws/install/xarm_sdk:/home/walt/dev_ws/install/xarm_msgs:/home/walt/dev_ws/install/xarm_description:/home/walt/dev_ws/install/realsense_gazebo_plugin:/home/walt/dev_ws/install/mbot_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/walt/dev_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/walt/ws_moveit/install/xarm_controller/lib:/home/walt/ws_moveit/install/xarm_api/lib:/home/walt/ws_moveit/install/xarm_sdk/lib:/home/walt/ws_moveit/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walt/ws_moveit/install/xarm_msgs/lib/python3.12/site-packages:/home/walt/ws_moveit/build/uf_ros_lib:/home/walt/ws_moveit/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/walt/ws_moveit/src/xarm_ros2/xarm_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/walt/ws_moveit/install/xarm_planner
+[1.508s] Invoking command in '/home/walt/ws_moveit/build/xarm_planner': AMENT_PREFIX_PATH=/home/walt/ws_moveit/install/xarm_moveit_config:/home/walt/ws_moveit/install/xarm_gazebo:/home/walt/ws_moveit/install/xarm_controller:/home/walt/ws_moveit/install/xarm_api:/home/walt/ws_moveit/install/xarm_sdk:/home/walt/ws_moveit/install/xarm_msgs:/home/walt/ws_moveit/install/xarm_description:/home/walt/ws_moveit/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walt/ws_moveit/install/xarm_moveit_config:/home/walt/ws_moveit/install/xarm_gazebo:/home/walt/ws_moveit/install/xarm_controller:/home/walt/ws_moveit/install/xarm_api:/home/walt/ws_moveit/install/xarm_sdk:/home/walt/ws_moveit/install/xarm_msgs:/home/walt/ws_moveit/install/xarm_description:/home/walt/dev_ws/install/xarm_planner:/home/walt/dev_ws/install/xarm_moveit_servo:/home/walt/dev_ws/install/xarm_moveit_config:/home/walt/dev_ws/install/xarm_gazebo:/home/walt/dev_ws/install/xarm_controller:/home/walt/dev_ws/install/xarm_api:/home/walt/dev_ws/install/xarm_sdk:/home/walt/dev_ws/install/xarm_msgs:/home/walt/dev_ws/install/xarm_description:/home/walt/dev_ws/install/realsense_gazebo_plugin:/home/walt/dev_ws/install/mbot_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/walt/dev_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/walt/ws_moveit/install/xarm_controller/lib:/home/walt/ws_moveit/install/xarm_api/lib:/home/walt/ws_moveit/install/xarm_sdk/lib:/home/walt/ws_moveit/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walt/ws_moveit/install/xarm_msgs/lib/python3.12/site-packages:/home/walt/ws_moveit/build/uf_ros_lib:/home/walt/ws_moveit/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/walt/ws_moveit/build/xarm_planner -- -j32 -l32
+[1.548s] [ 22%] [32mBuilding CXX object CMakeFiles/test_lite_gripper_realmove.dir/test/test_lite_gripper_realmove.cpp.o[0m
+[1.548s] [ 22%] [32mBuilding CXX object CMakeFiles/xarm_planner.dir/src/xarm_planner.cpp.o[0m
+[1.548s] [ 22%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_client_joint.dir/test/test_xarm_planner_client_joint.cpp.o[0m
+[1.548s] [ 22%] [32mBuilding CXX object CMakeFiles/test_xarm_gripper_planner_client_joint.dir/test/test_xarm_gripper_planner_client_joint.cpp.o[0m
+[1.548s] [ 22%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_client_pose.dir/test/test_xarm_planner_client_pose.cpp.o[0m
+[3.279s] [ 27%] [32m[1mLinking CXX executable test_lite_gripper_realmove[0m
+[3.425s] [ 27%] Built target test_lite_gripper_realmove
+[3.528s] [ 31%] [32m[1mLinking CXX executable test_xarm_planner_client_pose[0m
+[3.605s] [ 36%] [32m[1mLinking CXX executable test_xarm_gripper_planner_client_joint[0m
+[3.655s] [ 40%] [32m[1mLinking CXX executable test_xarm_planner_client_joint[0m
+[3.685s] [ 40%] Built target test_xarm_planner_client_pose
+[3.753s] [ 40%] Built target test_xarm_gripper_planner_client_joint
+[3.806s] [ 40%] Built target test_xarm_planner_client_joint
+[4.833s] [ 45%] [32m[1mLinking CXX shared library libxarm_planner.so[0m
+[4.939s] [ 45%] Built target xarm_planner
+[4.954s] [ 50%] [32mBuilding CXX object CMakeFiles/xarm_planner_node.dir/src/xarm_planner_node.cpp.o[0m
+[4.956s] [ 59%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_joint.dir/test/test_xarm_planner_api_joint.cpp.o[0m
+[4.956s] [ 59%] [32mBuilding CXX object CMakeFiles/test_dual_xarm_planner_api_joint.dir/test/test_dual_xarm_planner_api_joint.cpp.o[0m
+[4.956s] [ 63%] [32mBuilding CXX object CMakeFiles/xarm_gripper_planner_node.dir/src/xarm_gripper_planner_node.cpp.o[0m
+[4.956s] [ 68%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o[0m
+[4.956s] [ 72%] [32mBuilding CXX object CMakeFiles/test_xarm_gripper_planner_api_joint.dir/test/test_xarm_gripper_planner_api_joint.cpp.o[0m
+[8.254s] [ 77%] [32m[1mLinking CXX executable test_xarm_gripper_planner_api_joint[0m
+[8.266s] [ 81%] [32m[1mLinking CXX executable test_xarm_planner_api_pose[0m
+[8.303s] [ 86%] [32m[1mLinking CXX executable test_dual_xarm_planner_api_joint[0m
+[8.309s] [ 90%] [32m[1mLinking CXX executable test_xarm_planner_api_joint[0m
+[8.451s] [ 90%] Built target test_xarm_gripper_planner_api_joint
+[8.451s] [ 90%] Built target test_xarm_planner_api_pose
+[8.480s] [ 90%] Built target test_dual_xarm_planner_api_joint
+[8.480s] [ 90%] Built target test_xarm_planner_api_joint
+[8.838s] [ 95%] [32m[1mLinking CXX executable xarm_gripper_planner_node[0m
+[9.088s] [ 95%] Built target xarm_gripper_planner_node
+[9.616s] [100%] [32m[1mLinking CXX executable xarm_planner_node[0m
+[9.879s] [100%] Built target xarm_planner_node
+[9.888s] Invoked command in '/home/walt/ws_moveit/build/xarm_planner' returned '0': AMENT_PREFIX_PATH=/home/walt/ws_moveit/install/xarm_moveit_config:/home/walt/ws_moveit/install/xarm_gazebo:/home/walt/ws_moveit/install/xarm_controller:/home/walt/ws_moveit/install/xarm_api:/home/walt/ws_moveit/install/xarm_sdk:/home/walt/ws_moveit/install/xarm_msgs:/home/walt/ws_moveit/install/xarm_description:/home/walt/ws_moveit/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walt/ws_moveit/install/xarm_moveit_config:/home/walt/ws_moveit/install/xarm_gazebo:/home/walt/ws_moveit/install/xarm_controller:/home/walt/ws_moveit/install/xarm_api:/home/walt/ws_moveit/install/xarm_sdk:/home/walt/ws_moveit/install/xarm_msgs:/home/walt/ws_moveit/install/xarm_description:/home/walt/dev_ws/install/xarm_planner:/home/walt/dev_ws/install/xarm_moveit_servo:/home/walt/dev_ws/install/xarm_moveit_config:/home/walt/dev_ws/install/xarm_gazebo:/home/walt/dev_ws/install/xarm_controller:/home/walt/dev_ws/install/xarm_api:/home/walt/dev_ws/install/xarm_sdk:/home/walt/dev_ws/install/xarm_msgs:/home/walt/dev_ws/install/xarm_description:/home/walt/dev_ws/install/realsense_gazebo_plugin:/home/walt/dev_ws/install/mbot_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/walt/dev_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/walt/ws_moveit/install/xarm_controller/lib:/home/walt/ws_moveit/install/xarm_api/lib:/home/walt/ws_moveit/install/xarm_sdk/lib:/home/walt/ws_moveit/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walt/ws_moveit/install/xarm_msgs/lib/python3.12/site-packages:/home/walt/ws_moveit/build/uf_ros_lib:/home/walt/ws_moveit/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/walt/ws_moveit/build/xarm_planner -- -j32 -l32
+[9.889s] Invoking command in '/home/walt/ws_moveit/build/xarm_planner': AMENT_PREFIX_PATH=/home/walt/ws_moveit/install/xarm_moveit_config:/home/walt/ws_moveit/install/xarm_gazebo:/home/walt/ws_moveit/install/xarm_controller:/home/walt/ws_moveit/install/xarm_api:/home/walt/ws_moveit/install/xarm_sdk:/home/walt/ws_moveit/install/xarm_msgs:/home/walt/ws_moveit/install/xarm_description:/home/walt/ws_moveit/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walt/ws_moveit/install/xarm_moveit_config:/home/walt/ws_moveit/install/xarm_gazebo:/home/walt/ws_moveit/install/xarm_controller:/home/walt/ws_moveit/install/xarm_api:/home/walt/ws_moveit/install/xarm_sdk:/home/walt/ws_moveit/install/xarm_msgs:/home/walt/ws_moveit/install/xarm_description:/home/walt/dev_ws/install/xarm_planner:/home/walt/dev_ws/install/xarm_moveit_servo:/home/walt/dev_ws/install/xarm_moveit_config:/home/walt/dev_ws/install/xarm_gazebo:/home/walt/dev_ws/install/xarm_controller:/home/walt/dev_ws/install/xarm_api:/home/walt/dev_ws/install/xarm_sdk:/home/walt/dev_ws/install/xarm_msgs:/home/walt/dev_ws/install/xarm_description:/home/walt/dev_ws/install/realsense_gazebo_plugin:/home/walt/dev_ws/install/mbot_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/walt/dev_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/walt/ws_moveit/install/xarm_controller/lib:/home/walt/ws_moveit/install/xarm_api/lib:/home/walt/ws_moveit/install/xarm_sdk/lib:/home/walt/ws_moveit/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walt/ws_moveit/install/xarm_msgs/lib/python3.12/site-packages:/home/walt/ws_moveit/build/uf_ros_lib:/home/walt/ws_moveit/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/walt/ws_moveit/build/xarm_planner
+[9.896s] -- Install configuration: ""
+[9.897s] -- Execute custom install script
+[9.897s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/include/xarm_planner/xarm_planner.h
+[9.911s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/lib/libxarm_planner.so
+[9.928s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/lib/xarm_planner/xarm_planner_node
+[9.939s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/lib/xarm_planner/xarm_gripper_planner_node
+[9.950s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_joint
+[9.966s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/lib/xarm_planner/test_dual_xarm_planner_api_joint
+[9.981s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_pose
+[9.993s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_api_joint
+[10.004s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_joint
+[10.015s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_pose
+[10.028s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_client_joint
+[10.041s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/lib/xarm_planner/test_lite_gripper_realmove
+[10.059s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/_dual_robot_planner.launch.py
+[10.069s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/_robot_planner.launch.py
+[10.078s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/lite6_planner_fake.launch.py
+[10.085s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/lite6_planner_gazebo.launch.py
+[10.094s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/lite6_planner_realmove.launch.py
+[10.107s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/test_dual_xarm_planner_api_joint.launch.py
+[10.122s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/test_lite_gripper_realmove.launch.py
+[10.133s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/test_move_group.launch.py
+[10.144s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/test_xarm_gripper_planner_api_joint.launch.py
+[10.155s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/test_xarm_gripper_planner_client_joint.launch.py
+[10.163s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_api_joint.launch.py
+[10.172s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_api_pose.launch.py
+[10.183s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_client_joint.launch.py
+[10.194s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_client_pose.launch.py
+[10.203s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/uf850_planner_fake.launch.py
+[10.213s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/uf850_planner_gazebo.launch.py
+[10.226s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/uf850_planner_realmove.launch.py
+[10.241s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_fake.launch.py
+[10.256s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_gazebo.launch.py
+[10.271s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_realmove.launch.py
+[10.280s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_fake.launch.py
+[10.292s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_gazebo.launch.py
+[10.307s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_realmove.launch.py
+[10.321s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_fake.launch.py
+[10.336s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_gazebo.launch.py
+[10.353s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_realmove.launch.py
+[10.370s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_fake.launch.py
+[10.386s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_gazebo.launch.py
+[10.401s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_realmove.launch.py
+[10.413s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/ament_index/resource_index/package_run_dependencies/xarm_planner
+[10.426s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/ament_index/resource_index/parent_prefix_path/xarm_planner
+[10.443s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner/environment/ament_prefix_path.sh
+[10.454s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner/environment/ament_prefix_path.dsv
+[10.465s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner/environment/path.sh
+[10.473s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner/environment/path.dsv
+[10.481s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner/local_setup.bash
+[10.492s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner/local_setup.sh
+[10.501s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner/local_setup.zsh
+[10.509s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner/local_setup.dsv
+[10.515s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner/package.dsv
+[10.526s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/ament_index/resource_index/packages/xarm_planner
+[10.538s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner/cmake/xarm_plannerConfig.cmake
+[10.552s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner/cmake/xarm_plannerConfig-version.cmake
+[10.567s] -- Symlinking: /home/walt/ws_moveit/install/xarm_planner/share/xarm_planner/package.xml
+[10.579s] Invoked command in '/home/walt/ws_moveit/build/xarm_planner' returned '0': AMENT_PREFIX_PATH=/home/walt/ws_moveit/install/xarm_moveit_config:/home/walt/ws_moveit/install/xarm_gazebo:/home/walt/ws_moveit/install/xarm_controller:/home/walt/ws_moveit/install/xarm_api:/home/walt/ws_moveit/install/xarm_sdk:/home/walt/ws_moveit/install/xarm_msgs:/home/walt/ws_moveit/install/xarm_description:/home/walt/ws_moveit/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walt/ws_moveit/install/xarm_moveit_config:/home/walt/ws_moveit/install/xarm_gazebo:/home/walt/ws_moveit/install/xarm_controller:/home/walt/ws_moveit/install/xarm_api:/home/walt/ws_moveit/install/xarm_sdk:/home/walt/ws_moveit/install/xarm_msgs:/home/walt/ws_moveit/install/xarm_description:/home/walt/dev_ws/install/xarm_planner:/home/walt/dev_ws/install/xarm_moveit_servo:/home/walt/dev_ws/install/xarm_moveit_config:/home/walt/dev_ws/install/xarm_gazebo:/home/walt/dev_ws/install/xarm_controller:/home/walt/dev_ws/install/xarm_api:/home/walt/dev_ws/install/xarm_sdk:/home/walt/dev_ws/install/xarm_msgs:/home/walt/dev_ws/install/xarm_description:/home/walt/dev_ws/install/realsense_gazebo_plugin:/home/walt/dev_ws/install/mbot_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/walt/dev_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/walt/ws_moveit/install/xarm_controller/lib:/home/walt/ws_moveit/install/xarm_api/lib:/home/walt/ws_moveit/install/xarm_sdk/lib:/home/walt/ws_moveit/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walt/ws_moveit/install/xarm_msgs/lib/python3.12/site-packages:/home/walt/ws_moveit/build/uf_ros_lib:/home/walt/ws_moveit/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/walt/ws_moveit/build/xarm_planner

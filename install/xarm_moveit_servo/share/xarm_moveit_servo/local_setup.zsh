@@ -1,0 +1,1 @@
+/home/walt/ws_moveit/build/xarm_moveit_servo/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,1 @@
+/home/walt/ws_moveit/build/xarm_msgs/ament_cmake_core/xarm_msgsConfig-version.cmake

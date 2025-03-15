@@ -1,0 +1,10 @@
+/home/walt/ws_moveit/build/xarm_sdk/CMakeFiles/uninstall.dir
+/home/walt/ws_moveit/build/xarm_sdk/CMakeFiles/xarm_sdk_uninstall.dir
+/home/walt/ws_moveit/build/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir
+/home/walt/ws_moveit/build/xarm_sdk/CMakeFiles/test.dir
+/home/walt/ws_moveit/build/xarm_sdk/CMakeFiles/edit_cache.dir
+/home/walt/ws_moveit/build/xarm_sdk/CMakeFiles/rebuild_cache.dir
+/home/walt/ws_moveit/build/xarm_sdk/CMakeFiles/list_install_components.dir
+/home/walt/ws_moveit/build/xarm_sdk/CMakeFiles/install.dir
+/home/walt/ws_moveit/build/xarm_sdk/CMakeFiles/install/local.dir
+/home/walt/ws_moveit/build/xarm_sdk/CMakeFiles/install/strip.dir

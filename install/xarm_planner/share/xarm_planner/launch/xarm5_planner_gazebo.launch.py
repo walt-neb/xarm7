@@ -1,0 +1,1 @@
+/home/walt/ws_moveit/src/xarm_ros2/xarm_planner/launch/xarm5_planner_gazebo.launch.py
