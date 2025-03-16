@@ -1,0 +1,25 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+
+# Miscellaneous
+*.bak
+*.tmp
+*.log
+
+# Keep source directories, but ignore their build outputs
+src/*/build/
+src/*/install/
+src/*/log/
+
+*.odt
